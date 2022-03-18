@@ -41,4 +41,4 @@ jobs:
           context: .
           file: ./Dockerfile
           tags: |
-            pythops/gitops:${{ steps.prep.outputs.BUILD_ID }}
+            sasubillis/gitops:${{ steps.prep.outputs.BUILD_ID }}
