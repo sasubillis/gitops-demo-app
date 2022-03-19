@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return jsonify({"version": "v4"})
+    return render_template('index.html')
